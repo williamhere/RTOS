@@ -1,4 +1,4 @@
-# RTOS
+### RTOS
 一，eLinux與Android作業系統的架構原理； 
 
 二，eLinux與Android作業系統的開發流程； 
@@ -15,11 +15,11 @@
 
 八，eLinux輸出入介面控制器驅動程式。
 
-RTOS Repository
-Overview
+## RTOS Repository
+# Overview
 This repository provides a comprehensive implementation of a Real-Time Operating System (RTOS) tailored for various embedded systems projects. The code covers multiple aspects of RTOS functionality, including task scheduling, interrupt handling, inter-task communication, and peripheral interfacing.
 
-Directory Structure
+# Directory Structure
 final/
 
 Contains the final version of the RTOS implementation, with fully integrated features and optimizations.
@@ -65,7 +65,7 @@ Key files:
 main.c: Initializes the RTOS and sets up the Ethernet server.
 ethernet_driver.c: Contains driver code for Ethernet communication.
 ethernet_driver.h: Header file for Ethernet driver declarations.
-Key Features
+# Key Features
 Task Scheduling: Implements priority-based preemptive scheduling for real-time task management.
 Interrupt Handling: Efficiently handles hardware interrupts to ensure real-time responsiveness.
 Inter-task Communication: Provides mechanisms like semaphores, queues, and event flags for safe and efficient inter-task communication.
